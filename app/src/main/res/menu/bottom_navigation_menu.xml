@@ -17,5 +17,5 @@
         android:title="@string/profile"
         android:icon="@drawable/ic_profile"
         />
-
+<!--test-->
 </menu>
