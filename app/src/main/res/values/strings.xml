@@ -3,4 +3,8 @@
     <string name="reservation" >Reservas</string>
     <string name="create" >Criar Reservas</string>
     <string name="profile" >Perfil</string>
+    <string name="password_required">O campo Password é obrigatório</string>
+    <string name="login_required">O campo Login é obrigatório</string>
+    <string name="login_success">Login feito com sucesso!</string>
+    <string name="login_failed">falha ao fazer o Login</string>
 </resources>
