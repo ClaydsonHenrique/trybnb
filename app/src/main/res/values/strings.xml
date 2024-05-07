@@ -7,4 +7,9 @@
     <string name="login_required">O campo Login é obrigatório</string>
     <string name="login_success">Login feito com sucesso!</string>
     <string name="login_failed">falha ao fazer o Login</string>
+    <string name="hospedes">Nome do Hóspede</string>
+    <string name="checkIn">Checkin</string>
+    <string name="Informacoes">Informações Adicionais</string>
+    <string name="preco">R$</string>
+
 </resources>
