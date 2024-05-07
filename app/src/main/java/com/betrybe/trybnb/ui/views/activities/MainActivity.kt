@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setupBottomNavigationView()
+
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.main_fragment_container, ReservationFragment())
+            .commit()
     }
 
     private fun setupBottomNavigationView() {
