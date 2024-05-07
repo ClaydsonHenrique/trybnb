@@ -8,8 +8,13 @@
     <string name="login_success">Login feito com sucesso!</string>
     <string name="login_failed">falha ao fazer o Login</string>
     <string name="hospedes">Nome do Hóspede</string>
+    <string name="hospedes_sobrenome">Nome do Hóspede</string>
     <string name="checkIn">Checkin</string>
+    <string name="checkOut">Checkout</string>
     <string name="Informacoes">Informações Adicionais</string>
     <string name="preco">R$</string>
+    <string name="necessidades">Necessidades adicionais</string>
+    <string name="total_preco">Preço total</string>
+    <string name="deposito">Depósito Pago</string>
 
 </resources>
