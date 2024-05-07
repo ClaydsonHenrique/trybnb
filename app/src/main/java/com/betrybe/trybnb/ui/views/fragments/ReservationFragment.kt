@@ -16,7 +16,7 @@ class ReservationFragment : Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-      val viewRoot = inflater.inflate(R.layout.fragment_reservation, container, false);
+        val viewRoot = inflater.inflate(R.layout.fragment_reservation, container, false);
         return viewRoot
     }
 

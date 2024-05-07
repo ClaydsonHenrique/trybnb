@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 loadFragment(R.id.create_reservation_scroll_view, CreateReservationFragment())
                 return true
             }
-            R.id.profile_menu_item -> {
+            R.id.profile_menu_tem -> {
                 loadFragment(R.id.profile_scroll_view, ProfileFragment())
                 return true
             }
