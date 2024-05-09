@@ -8,7 +8,7 @@
     <string name="login_success">Login feito com sucesso!</string>
     <string name="login_failed">falha ao fazer o Login</string>
     <string name="hospedes">Nome do hóspede</string>
-    <string name="hospedes_sobrenome">Nome do hóspede</string>
+    <string name="hospedes_sobrenome">Sobrenome do hóspede</string>
     <string name="checkIn">Checkin</string>
     <string name="checkOut">Checkout</string>
     <string name="Informacoes">Informações adicionais</string>
@@ -16,5 +16,7 @@
     <string name="necessidades">Necessidades adicionais</string>
     <string name="total_preco">Preço total</string>
     <string name="deposito">Depósito pago</string>
+    <string name="sucessCheck">Reserva feita com sucesso!</string>
+    <string name="failCheck">Erro ao fazer a reserva</string>
 
 </resources>

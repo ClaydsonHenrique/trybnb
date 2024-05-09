@@ -8,4 +8,6 @@ data class bookingGetId(val name:String, val secondName: String,
                         val dates: bookCheckIn,
                         val adicionais: String, )
 
+data class createResvation (val bookId: Int, val bookin: bookingGetId)
+
 

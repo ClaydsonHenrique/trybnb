@@ -4,6 +4,7 @@ import com.betrybe.trybnb.data.models.LoginRequest
 import com.betrybe.trybnb.data.models.LoginToken
 import com.betrybe.trybnb.data.models.bookingGetId
 import com.betrybe.trybnb.data.models.bookingId
+import com.betrybe.trybnb.data.models.createResvation
 import retrofit2.Response
 import retrofit2.http.*
 
@@ -16,4 +17,8 @@ interface ApiService {
 
     @GET("booking/{id}")
     suspend fun getBookById(@Path("id") id: String, @Header("Accept") accept: String = "*/*"): Response<bookingGetId>
+
+    @POST ("booking")
+    suspend fun createResevations(@Body bodyCreateResvation: bookingGetId ): Response<createResvation>
+
 }
